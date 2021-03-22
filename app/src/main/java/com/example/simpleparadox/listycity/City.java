@@ -22,7 +22,7 @@ public class City implements Comparable<City>{
         return city.compareTo(o.getCityName());
     }
 
-    public String returnOne() {
-        return "1";
+    public int returnOne() {
+        return 1;
     }
 }
